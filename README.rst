@@ -1,9 +1,5 @@
-Template for the Read the Docs tutorial
+leveldb-book
 =======================================
+leveldb book基于google开源的leveldb项目讲解leveldb的源码实现。
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+所有文章基于笔者自己的理解，若有错误之处欢迎大家提交PR。
