@@ -1,11 +1,7 @@
-# Configuration file for the Sphinx documentation builder.
-
-# -- Project information
-
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
-
+project = 'leveldb-book'
+copyright = '2025, gotorion'
+author = 'gotorion'
+language = 'zh_CN'
 release = '0.1'
 version = '0.1.0'
 
@@ -17,7 +13,13 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'recommonmark'
 ]
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+}
+
+source_suffix = ['.rst', '.md']
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
